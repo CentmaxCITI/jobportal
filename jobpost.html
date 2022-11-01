@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>career list - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+</head>
+<body style="background-color: #ffffff;">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="main.css"/>
+
+
+<div class="">
+   <div class="container">
+   <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    
+                           
+                                    <div class="wrapper">
+                                      
+                                      <form action="upload.php" method="post" enctype="multipart/form-data">
+       
+                                        <div class="dbl-field">
+                                            <div class="field">
+                                              <input type="text" name="title" placeholder="Enter Job Title">
+                                              <i class='fas fa-user'></i>
+                                            </div>
+                                            <div class="field">
+                                              <input type="text" name="company" placeholder="Enter Company Name">
+                                              <i class='fas fa-home'></i>
+                                            </div>
+                                          </div>
+                                          <div class="dbl-field">
+                                            <div class="field">
+                                              <input type="text" name="location" placeholder="Enter Job Location">
+                                              <i class='fas fa-map'></i>
+                                            </div>
+                                            <div class="field">
+                                              <input type="text" name="category" placeholder="Enter Job Category or Field">
+                                              <i class='fas fa-search'></i>
+                                            </div>
+                                          </div>
+                                          <div class="dbl-field">
+                                            <div class="field">
+                                              <input type="text" name="url" placeholder="Enter Apply Link">
+                                              <i class='fas fa-globe'></i>
+                                            </div>
+                                            <div class="field">
+                                              <input type="text" name="expiry" placeholder="Enter Expiry Date">
+                                              <i class='fas fa-clock'></i>
+                                            </div>
+                                            <div class="field">
+                                              Logo
+                                              <input type="file" name="file">
+                                               
+                                            </div>
+                                          </div>
+                                          
+                                          
+                          
+                                            <textarea id="summernote" name="details"></textarea>
+                                         
+                                          <div class="button-area">
+                                            <input type="submit" name="submit" value="Upload" style="width:100px; height:40px;   color: #fff;
+                                            border: none;
+                                            outline: none;
+                                            font-size: 18px;
+                                            cursor: pointer;
+                                            border-radius: 5px;
+                                            
+                                            background: #07720c;
+                                            transition: background 0.3s ease;">
+                                           
+                                          </div>
+                                       
+                                       
+                                        
+                                    </form>
+                                      </div>
+
+                              
+                </div>
+            </div>
+
+        </div>
+        </div>
+<style type="text/css">
+
+</style>
+<script src="script.js"></script>
+ <script>
+      $('#summernote').summernote({
+        placeholder: 'Enter Job Description Here',
+        tabsize: 2,
+        height: 1020,
+        toolbar: [
+          ['style', ['style']],
+         
+        ]
+      });
+    </script>
+</script>
+</body>
+</html>

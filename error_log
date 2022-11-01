@@ -1,0 +1,40 @@
+[16-Jul-2022 14:27:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[16-Jul-2022 14:27:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[16-Jul-2022 14:27:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[16-Jul-2022 16:10:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[16-Jul-2022 16:10:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[16-Jul-2022 16:10:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[16-Jul-2022 16:11:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[16-Jul-2022 16:11:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[16-Jul-2022 16:11:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[17-Jul-2022 13:37:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[17-Jul-2022 13:37:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[17-Jul-2022 13:37:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[17-Jul-2022 13:38:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[17-Jul-2022 13:38:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[17-Jul-2022 13:38:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[18-Jul-2022 09:05:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: NO) in /home/citiac/Jobs.citi.ac.ug/dbConfig.php on line 9
+[18-Jul-2022 09:13:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[18-Jul-2022 09:13:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[18-Jul-2022 09:13:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[18-Jul-2022 09:14:09 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/dbConfig.php on line 9
+[18-Jul-2022 09:14:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[18-Jul-2022 09:14:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[18-Jul-2022 09:14:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[18-Jul-2022 09:15:23 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/dbConfig.php on line 9
+[18-Jul-2022 09:16:18 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/dbConfig.php on line 9
+[18-Jul-2022 09:19:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'citiac_admin'@'localhost' (using password: YES) in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[18-Jul-2022 09:19:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[18-Jul-2022 09:19:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[18-Jul-2022 09:20:33 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'citiac_centmax'@'localhost' to database 'citiac_blog' in /home/citiac/Jobs.citi.ac.ug/index.php on line 60
+[18-Jul-2022 09:20:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/citiac/Jobs.citi.ac.ug/index.php on line 62
+[18-Jul-2022 09:20:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/citiac/Jobs.citi.ac.ug/index.php on line 64
+[20-Jul-2022 13:58:29 UTC] PHP Notice:  Undefined index: id in /home/citiac/Jobs.citi.ac.ug/jobdetails.php on line 56
+[20-Jul-2022 13:58:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/citiac/Jobs.citi.ac.ug/jobdetails.php on line 61
+[04-Aug-2022 18:15:15 UTC] PHP Notice:  Undefined index: file in /home/citiac/Jobs.citi.ac.ug/upload.php on line 8
+[04-Aug-2022 18:15:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/citiac/Jobs.citi.ac.ug/upload.php on line 8
+[09-Aug-2022 09:40:23 UTC] PHP Notice:  Undefined index: id in /home/citiac/Jobs.citi.ac.ug/jobdetails.php on line 56
+[09-Aug-2022 09:40:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/citiac/Jobs.citi.ac.ug/jobdetails.php on line 61
+[29-Aug-2022 17:43:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/citiac/Jobs.citi.ac.ug/jobdetails.php on line 61
+[02-Sep-2022 12:27:24 UTC] PHP Notice:  Undefined index: file in /home/citiac/Jobs.citi.ac.ug/upload.php on line 8
+[02-Sep-2022 12:27:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/citiac/Jobs.citi.ac.ug/upload.php on line 8
