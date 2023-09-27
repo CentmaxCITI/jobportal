@@ -32,6 +32,7 @@
             <li><a href="https://citi.ac.ug/public/pages/about">About Us</a></li>
             <li><a href="https://blog.citi.ac.ug/wp/">Blog</a></li>
             <li><a href="https://citi.ac.ug/contact">Contact</a></li>
+            <li><a href="#" id="loginLink">Login</a></li>
           
          </div>
          <div class="search-icon">
@@ -45,6 +46,36 @@
             <button type="submit" class="fas fa-search"></button>
          </form>
 </div>
+	<!-- Add a login modal dialog -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="loginButton">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="main">
    <div class="container">
    <div class="row">
@@ -80,14 +111,23 @@
                                                 <i class="zmdi zmdi-time mr-2"></i>Deadline: <?= $row['expiry_date'] ?>
                                             </li>
                                         </ul>
+
+                                        <ul class="d-md-flex flex-wrap text-capitalize ff-montserrat" style="padding-left: 0px; color:#000;font-size:14px" >
+                                          
+                                            <li class="mr-md-4">
+                                                <i class="zmdi zmdi-case mr-2"></i>Delete
+                                            </li>
+                                            
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="job-right my-4 flex-shrink-0">
                                     <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=admin@citi.ac.ug&cc=centmaxtech@gmail.com&bcc=kiiryarnold@gmail.com&su=Career%20Guidance&body=Hello%20CITI
-
  " class="btn d-block w-100 d-sm-inline-block btn-light" id="button">Ask an Expert</a>
   <p>CV/Application<br> & Interview Tips</p>
+  
                                 </div>
+
                             </div>
 
                             <?php }?>
@@ -160,6 +200,40 @@
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);
         })();
+
+
+	// JavaScript for handling the login modal
+$(document).ready(function () {
+    // Show the login modal when the "Login" link is clicked
+    $("#loginLink").click(function () {
+        $("#loginModal").modal("show");
+    });
+
+    // Handle the login button click
+    $("#loginButton").click(function () {
+        // Retrieve the entered username and password
+        var username = $("#username").val();
+        var password = $("#password").val();
+
+        // Check if the entered username and password are correct
+        if (username === "@centmaxadmin" && password === "admin") {
+            // You can store the username in a session or a cookie here
+            // For simplicity, let's just store it in a variable
+            var sessionUsername = "@centmaxadmin";
+
+            // Close the login modal
+            $("#loginModal").modal("hide");
+
+            // You can perform additional actions after successful login here
+
+            // Example: Display a welcome message
+            alert("Welcome, " + sessionUsername);
+        } else {
+            // Display an error message if login fails
+            alert("Invalid username or password. Please try again.");
+        }
+    });
+});
     </script>
 
 </body>
